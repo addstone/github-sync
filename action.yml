@@ -19,7 +19,7 @@ inputs:
     required: true
   sync_tags:
     description: Should tags also be synced
-    required: false
+    required: true
 runs:
   using: 'docker'
   image: docker://ghcr.io/repo-sync/github-sync:v2.3.0
